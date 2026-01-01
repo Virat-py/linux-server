@@ -5,6 +5,6 @@ network={
     key_mgmt=WPA-EAP
     eap=PEAP
     identity="mt123032@iitd.ac.in"
-    password="c23a52cf"
+    password="password"
     phase2="auth=MSCHAPV2"
 }
