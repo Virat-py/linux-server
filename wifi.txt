@@ -1,0 +1,10 @@
+ctrl_interface=/run/wpa_supplicant
+
+network={
+    ssid="eduroam"
+    key_mgmt=WPA-EAP
+    eap=PEAP
+    identity="mt123032@iitd.ac.in"
+    password="c23a52cf"
+    phase2="auth=MSCHAPV2"
+}
